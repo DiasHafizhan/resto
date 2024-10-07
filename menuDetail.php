@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 require "function.php";
 
@@ -21,28 +21,7 @@ $menu = menu("SELECT * FROM menu WHERE id = $id")[0];
 
 <body>
   <!-- Header start -->
-  <div class="navbar">
-    <div class="logo">
-      <a href="">
-        <h1>Dapur <span>Bunda</span> Bahagia</h1>
-      </a>
-    </div>
-
-    <ul class="menu">
-      <li>
-        <a href="">About</a>
-      </li>
-      <li>
-        <a href="menu.php">Menu</a>
-      </li>
-    </ul>
-
-
-    <a href="" class="navbar-icon">
-      <i class='bx bx-menu'></i>
-    </a>
-
-  </div>
+  <?php include "component/header.php" ?>
   <!-- Header end -->
 
 
@@ -70,10 +49,11 @@ $menu = menu("SELECT * FROM menu WHERE id = $id")[0];
       </div>
     </div>
   </div>
-
-
-
   <!-- Menu Detail end -->
+
+  <!-- Footer start -->
+  <?php include "component/footer.php" ?>
+  <!-- Footer end -->
 
 </body>
 

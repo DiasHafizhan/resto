@@ -53,6 +53,7 @@ $struk = struk($id)[0];
 <head>
   <meta charset="utf-8" />
   <title>A simple, clean, and responsive HTML invoice template</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
   <style>
     .invoice-box {
@@ -220,6 +221,8 @@ $struk = struk($id)[0];
         <td>Total: <?= $struk['total_amount'] ?></td>
       </tr>
     </table>
+    <h6 class="mb-0"><a href="index.php?>" class="text-body"><i
+          class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
   </div>
 </body>
 

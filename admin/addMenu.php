@@ -38,28 +38,6 @@ if (isset($_POST["submit"])) {
 </head>
 
 <body>
-  <!-- Header start -->
-  <!-- <div class="navbar">
-    <div class="logo">
-      <a href="">
-        <h1>Dapur <span>Bunda</span> Bahagia</h1>
-      </a>
-    </div>
-
-    <div class="navbar-btn">
-      <a href="logout.php" class="btn-primary">
-        Logout
-      </a>
-    </div>
-
-
-    <a href="" class="navbar-icon">
-      <i class='bx bx-menu'></i>
-    </a>
-
-  </div> -->
-  <!-- Header end -->
-
   <div id="edit-page">
     <form action="" method="post" enctype="multipart/form-data">
       <input type="hidden" name="id">

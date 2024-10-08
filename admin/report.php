@@ -83,16 +83,7 @@ $orders = orders();
 
 
   <div id="#report">
-    <div class="add-side">
-      <ul>
-        <li>
-          <a href="adminPage.php">List Menu</a>
-        </li>
-        <li>
-          <a href="report.php">Financial Statements</a>
-        </li>
-      </ul>
-    </div>
+    <?php include '../component/sidebar.php' ?>
 
     <div class="add-menu">
       <div class="tbl-content">
